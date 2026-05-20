@@ -5,8 +5,8 @@ Minimal static website for Plainware Studio.
 ## Files
 
 - `index.html`
-- `privacy.html`
-- `support.html`
+- `privacy/index.html`
+- `support/index.html`
 - `styles.css`
 
 ## Cloudflare Pages
