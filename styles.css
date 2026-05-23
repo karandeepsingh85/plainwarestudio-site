@@ -8,6 +8,7 @@
   --muted-strong: #c9cbc7;
   --splits: #c76a2a;
   --fasting: #a9e848;
+  --countdown: #6750A4;
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.36);
   color-scheme: dark;
 }
@@ -189,6 +190,10 @@ h3 {
   border-top: 3px solid var(--fasting);
 }
 
+.app-card-countdown {
+  border-top: 3px solid var(--countdown);
+}
+
 .app-meta {
   display: flex;
   align-items: center;
@@ -211,6 +216,10 @@ h3 {
 
 .app-dot-fasting {
   background: var(--fasting);
+}
+
+.app-dot-countdown {
+  background: var(--countdown);
 }
 
 .feature-list,
@@ -290,6 +299,17 @@ h3 {
   font-size: 0.92rem;
 }
 
+.app-note {
+  margin-top: 18px;
+  font-size: 0.88rem;
+}
+
+.app-trust {
+  margin-top: 6px;
+  font-size: 0.82rem;
+  opacity: 0.7;
+}
+
 .support-faq {
   display: grid;
   gap: 20px;
@@ -322,6 +342,10 @@ h3 {
   .app-grid {
     grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
     align-items: stretch;
+  }
+
+  .app-card-splits {
+    grid-row: span 2;
   }
 
   .app-card {
