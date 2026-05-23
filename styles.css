@@ -156,7 +156,7 @@ h3 {
 .section-heading {
   display: grid;
   gap: 12px;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .app-grid {
@@ -330,7 +330,7 @@ h3 {
 }
 
 .support-faq dt {
-  margin: 20px 0 6px;
+  margin: 22px 0 6px;
   color: var(--text);
   font-weight: 700;
   font-size: 0.97rem;
@@ -342,7 +342,7 @@ h3 {
 
 .support-faq dd {
   margin: 0;
-  padding-left: 14px;
+  padding: 0 0 2px 14px;
   border-left: 2px solid var(--border);
   color: var(--muted);
   font-size: 0.95rem;
@@ -360,12 +360,8 @@ h3 {
   }
 
   .app-grid {
-    grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
-    align-items: stretch;
-  }
-
-  .app-card-splits {
-    grid-row: span 2;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    align-items: start;
   }
 
   .app-card {
