@@ -290,6 +290,24 @@ h3 {
   font-size: 0.92rem;
 }
 
+.support-faq {
+  display: grid;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.support-faq dt {
+  margin-bottom: 4px;
+  color: var(--muted-strong);
+  font-weight: 700;
+}
+
+.support-faq dd {
+  margin: 0;
+  color: var(--muted);
+}
+
 @media (min-width: 720px) {
   .site-header,
   .site-footer,
