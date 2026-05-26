@@ -59,10 +59,15 @@ main {
 }
 
 .brand {
-  font-size: 0.95rem;
-  font-weight: 750;
-  letter-spacing: 0;
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
+}
+
+.site-logo {
+  display: block;
+  width: 118px;
+  height: auto;
 }
 
 .site-nav,
@@ -372,6 +377,10 @@ h3 {
 
   .hero {
     padding: 92px 0 84px;
+  }
+
+  .site-logo {
+    width: 132px;
   }
 
   .app-grid {
