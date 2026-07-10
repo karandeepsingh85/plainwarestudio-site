@@ -31,6 +31,7 @@
           <li>Splits</li>
           <li>Fasting Timer</li>
           <li>Countdown Timer</li>
+          <li>Plain Lift</li>
         </ul>
       </section>
 
@@ -115,6 +116,22 @@
           </li>
           <li>Countdown Timer may show local notifications for reminders.</li>
           <li>Countdown Timer may use Android widgets to display selected events on the home screen.</li>
+        </ul>
+      </section>
+
+      <section class="content-card">
+        <h2>4. Plain Lift</h2>
+        <p>Plain Lift is a strength-training tracker by Plainware Studio. It is local-first: with no account, nothing you log ever leaves your device.</p>
+        <ul class="policy-list">
+          <li>No account is required. You can use every logging feature fully offline, and by default your data is stored only on your device.</li>
+          <li>Plain Lift has no ads, no analytics SDK, and no third-party tracking.</li>
+          <li>Your workouts, sets, routines, programmes, custom exercises, body measurements, goals, notebook entries, gyms, and app settings are stored locally on your device.</li>
+          <li><strong>Optional cloud sync.</strong> If you choose to create an account and turn on cloud backup and sync, your training data (workouts, routines, programmes, custom exercises, body measurements, goals, notebook entries, and gyms) is stored in the developer's Firebase (Google Cloud) backend so it can back up and sync across your devices. App settings are not synced.</li>
+          <li><strong>Sign-in.</strong> Accounts use Firebase Authentication. You can sign in with Google or with an email address and password. Your email address and, where available, your name and profile photo are held by Firebase Authentication to run your account.</li>
+          <li><strong>How your data travels.</strong> All communication with the cloud uses encrypted HTTPS/TLS connections, and cloud data is stored under your account only — accessible to you, not to other users.</li>
+          <li><strong>Data deletion.</strong> Deleting your account from within the app removes your Firebase account and erases all of your synced data from the cloud. Uninstalling the app removes the local copy from your device.</li>
+          <li><strong>Export.</strong> Exporting a CSV creates a file only when you ask, and sends it through the Android share sheet to a destination you choose. Plain Lift keeps no copy and does not see where you send it.</li>
+          <li>Plain Lift may show a running notification while the rest timer is active, and uses foreground-service and exact-alarm functionality to keep the rest timer reliable in the background or on the lock screen.</li>
         </ul>
       </section>
 
