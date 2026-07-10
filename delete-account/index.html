@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="How to delete your Plain Lift account and cloud data.">
+    <title>Delete Your Plain Lift Account | Plainware Studio</title>
+    <link rel="stylesheet" href="../styles.css?v=20260526">
+    <style>
+      /* Page-scoped: numbered steps list. Mirrors .policy-list spacing but shows real
+         step numbers instead of bullets, since order matters for account deletion. */
+      .steps-list {
+        display: grid;
+        gap: 12px;
+        margin: 22px 0 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: step;
+      }
+      .steps-list li {
+        position: relative;
+        padding-left: 40px;
+        min-height: 26px;
+        color: var(--muted-strong);
+        counter-increment: step;
+      }
+      .steps-list li::before {
+        content: counter(step);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 26px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: var(--splits);
+        color: #0b0c0c;
+        font-weight: 700;
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Plainware Studio home">
+        <img class="site-logo" src="/assets/plainware-studio-logo.png?v=20260526" alt="Plainware Studio" width="720" height="264">
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/privacy">Privacy</a>
+        <a href="/support">Support</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="page-hero">
+        <p class="eyebrow">Plain Lift</p>
+        <h1>Delete Your Account</h1>
+        <p>This page explains how to delete your Plain Lift account and what happens to your data. Plain Lift is a strength-training app by Plainware Studio.</p>
+      </section>
+
+      <section class="content-card">
+        <h2>Do You Have an Account?</h2>
+        <p>Plain Lift is local-first. You can use every logging feature with no account, and by default your data is stored only on your device. An account exists only if you chose to turn on cloud backup and sync and signed in with Google or an email address and password.</p>
+        <ul class="policy-list">
+          <li><strong>If you never signed in:</strong> you have no account and nothing is stored in the cloud, so there is nothing to delete. Uninstalling the app removes the local copy from your device.</li>
+          <li><strong>If you did sign in:</strong> follow the steps below to permanently delete your account and all of your synced cloud data.</li>
+        </ul>
+      </section>
+
+      <section class="content-card">
+        <h2>Steps to Delete Your Account</h2>
+        <ol class="steps-list">
+          <li>Open the Plain Lift app on your device.</li>
+          <li>Go to <strong>Settings</strong>.</li>
+          <li>Tap <strong>Back up &amp; sync</strong>.</li>
+          <li>Under the <strong>Account</strong> section, tap <strong>Delete cloud account</strong>.</li>
+          <li>In the <strong>Delete cloud account?</strong> confirmation dialog, tap <strong>Delete account</strong>. There is a short safety countdown before the button becomes active.</li>
+          <li>If asked to confirm it's you, re-enter your password or sign in with Google again, then confirm. This completes the deletion.</li>
+        </ol>
+      </section>
+
+      <section class="content-card">
+        <h2>What Is Deleted</h2>
+        <ul class="policy-list">
+          <li>Your Firebase Authentication account (the account used to sign in) is permanently removed.</li>
+          <li>All of your synced cloud training data — workouts, routines, programmes, custom exercises, body measurements, goals, notebook entries, and gyms — is erased from the cloud.</li>
+          <li>Deletion is immediate and permanent. Plainware Studio keeps no server-side copy and there is no retention period after deletion.</li>
+        </ul>
+      </section>
+
+      <section class="content-card">
+        <h2>What Is Kept</h2>
+        <ul class="policy-list">
+          <li>Nothing is kept on our servers after your account is deleted.</li>
+          <li>The copy of your data on your own device is not affected by deleting the account — it stays on your phone. To remove that local copy, uninstall the app.</li>
+        </ul>
+      </section>
+
+      <section class="content-card">
+        <h2>Need Help?</h2>
+        <p>If you cannot access the app or need help deleting your account, contact <a href="mailto:support@plainwarestudio.com">support@plainwarestudio.com</a> and we will assist.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Plainware Studio</p>
+      <nav aria-label="Footer navigation">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/support">Support</a>
+      </nav>
+    </footer>
+  </body>
+</html>
